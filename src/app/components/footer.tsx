@@ -24,7 +24,6 @@ export default function Footer() {
                 height={26}
                 className="ml-3"
               />
-              
             </div>
             <p className="mt-4 text-gray-500">
               Vivamus tristique odio sit amet velit semper, eu posuere turpis

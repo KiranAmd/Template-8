@@ -1,14 +1,14 @@
-import React from 'react'
-import NewsletterInstagram from '../components/instagram'
-import AllProduct from '../components/allProducts'
+import React from 'react';
+import NewsletterInstagram from '../components/instagram';
+import AllProduct from '../components/allProducts';
 
-const page = () => {
+const Page = () => {
   return (
-      <div>
-          
-          <AllProduct />
-          <NewsletterInstagram />
-      
+    <div>
+      <AllProduct />
+      <NewsletterInstagram />
     </div>
-  )
-}
+  );
+};
+
+export default Page;

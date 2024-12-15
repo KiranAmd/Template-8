@@ -3,15 +3,16 @@ import Image from "next/image";
 export default function HotProduct() {
   return (
     <header className="container mx-auto px-4 py-12 lg:py-16">
-      <div className="relative grid grid-cols-1 gap-8 md:grid-cols-[auto_1fr]">
-        <div className="writing-mode-vertical-lr hidden text-xl font-medium tracking-wider text-zinc-900 md:block pt-6 writing-mode-vertical-rl text-ellipsis">
-          EXPLORE NEW AND POPULAR STYLES
-        </div>
-        <div className="text-xl font-medium tracking-wider text-zinc-900 md:hidden writing-mode-vertical-lr writing-mode-vertical-rl text-ellipsis">
-          EXPLORE NEW AND POPULAR STYLES
-        </div>
-        <div className="flex flex-col md:flex-row items-center gap-8">
-          <div className="w-full md:w-[48%]">
+         {/* Left Vertical Text Section */}
+        <div className="flex flex-col md:flex-row items-center gap-4 ">
+          <div className=" flex justify-between md:flex-row items-center  h-[648px] w-[53px] bg-white">
+            <p className="text-justify font-bold -rotate-180 [writing-mode:vertical-rl]">
+              EXPLORE NEW AND POPULAR STYLES
+            </p>
+          </div>
+
+
+          <div className="w-full md:w-[53%] flex flex-col md:flex-row items-center gap-4">
             <Image
               src="/03.jpg"
               alt="Orange modern chair"
@@ -60,7 +61,6 @@ export default function HotProduct() {
             </div>
           </div>
         </div>
-      </div>
     </header>
   );
 }
