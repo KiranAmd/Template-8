@@ -1,10 +1,15 @@
-
+// tailwind.config.js
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}', // Add paths to all your files
+    "./src/**/*.{js,ts,jsx,tsx}", // Adjust the paths to your files
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        inter: ["'Inter'", "sans-serif"], // Add Inter as a custom font
+      },
+    },
   },
   plugins: [],
 };
+

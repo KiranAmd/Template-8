@@ -1,5 +1,5 @@
 import { FiShoppingCart } from "react-icons/fi";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -84,7 +84,7 @@ export default function AllProduct() {
       id: 5,
       title: "Library Stool Chair",
       price: 20,
-      image: "/05.jpg",
+      image: "/08.jpg",
       isNew: true,
     },
     {
@@ -97,6 +97,26 @@ export default function AllProduct() {
     },
     { id: 7, title: "Library Stool Chair", price: 20, image: "/07.jpg" },
     { id: 8, title: "Library Stool Chair", price: 20, image: "/01.jpg" },
+    
+    {
+      id: 9,
+      title: "Library Stool Chair",
+      price: 20,
+      image: "/05.jpg",
+      isNew: true,
+    },
+    {
+      id: 10,
+      title: "Library Stool Chair",
+      price: 20,
+      originalPrice: 30,
+      image: "/02.jpg",
+      isSale: true,
+    },
+    { id: 11, title: "Library Stool Chair", price: 20, image: "/03.jpg" },
+    { id: 12, title: "Library Stool Chair", price: 20, image: "/12.png" }
+
+
   ];
 
   return (

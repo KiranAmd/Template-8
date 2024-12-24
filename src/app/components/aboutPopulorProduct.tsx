@@ -16,7 +16,7 @@ const AboutPopularProduct = () => {
             height={375}
             className="object-cover mx-auto"
           />
-          <p className="pt-5 text-[20px] font-normal text-left ">The Poplar Suede Sofa</p>
+          <p className="pt-5 text-[20px] font-normal text-left ">The Poplar suede sofa</p>
           <p className="pt-2 text-[18px] font-normal mb-32 text-left ">$99.00</p>
         </div>
         <div className="text-center">
@@ -27,7 +27,7 @@ const AboutPopularProduct = () => {
             height={375}
             className="object-cover mx-auto"
           />
-          <p className="pt-5 text-[20px] font-normal text-left ">The Dandy Chair</p>
+          <p className="pt-5 text-[20px] font-normal text-left ">The Dandy chair</p>
           <p className="pt-2 text-[18px] font-normal mb-32 text-left ">$99.00</p>
         </div>
         <div className="text-center">
@@ -38,7 +38,7 @@ const AboutPopularProduct = () => {
             height={375}
             className="object-cover mx-auto"
           />
-          <p className="pt-5 text-[20px] font-normal text-left ">The Dandy Chair</p>
+          <p className="pt-5 text-[20px] font-normal text-left ">The Dandy chair</p>
           <p className="pt-2 text-[18px] font-normal mb-32 text-left ">$99.00</p>
         </div>
       </div>

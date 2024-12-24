@@ -5,21 +5,21 @@ const Instagram = () => {
   return (
     <div className="w-full h-auto bg-[#F0F2F3]">
       {/* Newsletter Section */}
-      <div className="max-w-3xl mx-auto py-16 px-4 text-center space-y-6">
-        <h2 className="font-bold text-[32px] sm:text-[50px] mt-4">
-          Or Subscribe to the Newsletter
+      <div className="max-w-7xl mb-4 mx-auto py-16 px-4 text-center space-y-6">
+        <h2 className="  font-bold text-[32px] sm:text-[50px] mt-4 mb-2" >
+          Or Subscribe To The Newsletter
         </h2>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-16">
           {/* Email Input Section */}
-          <div className="flex flex-col items-start mt-12 sm:mt-0">
-            <span className="text-[#8F9499] text-[14px] sm:text-[16px] font-semibold mb-2 ml-3">
+          <div className="flex flex-col items-start mt-12 mb-5 sm:mt-0">
+            <span className="text-[#8F9499] text-[14px] sm:text-[16px] font-semibold mb-4 ml-3 " >
               Email address...
             </span>
             <div className="w-[300px] sm:w-[643px] h-[2px] bg-black"></div>
           </div>
           {/* Submit Button Section */}
-          <div className="flex flex-col items-center mt-4 sm:mt-0">
-            <span className="text-[14px] sm:text-[16px] font-normal mb-2">
+          <div className="flex flex-col items-center  mt-12 mb-5 sm:mt-0">
+            <span className="text-[14px] sm:text-[16px] font-normal mb-4 ml-3">
               SUBMIT
             </span>
             <div className="w-[91px] h-[2px] bg-black"></div>
@@ -35,7 +35,7 @@ const Instagram = () => {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 pb-24">
           <div className="aspect-square relative overflow-hidden rounded-lg">
             <Image
-              src="/01.jpg"
+              src="/08.jpg"
               alt="Instagram product 1"
               layout="fill"
               objectFit="cover"
@@ -43,7 +43,7 @@ const Instagram = () => {
           </div>
           <div className="aspect-square relative overflow-hidden rounded-lg">
             <Image
-              src="/02.jpg"
+              src="/05.jpg"
               alt="Instagram product 2"
               layout="fill"
               objectFit="cover"
@@ -51,7 +51,7 @@ const Instagram = () => {
           </div>
           <div className="aspect-square relative overflow-hidden rounded-lg">
             <Image
-              src="/03.jpg"
+              src="/02.jpg"
               alt="Instagram product 3"
               layout="fill"
               objectFit="cover"
@@ -59,7 +59,7 @@ const Instagram = () => {
           </div>
           <div className="aspect-square relative overflow-hidden rounded-lg">
             <Image
-              src="/04.jpg"
+              src="/01.jpg"
               alt="Instagram product 4"
               layout="fill"
               objectFit="cover"
@@ -67,7 +67,7 @@ const Instagram = () => {
           </div>
           <div className="aspect-square relative overflow-hidden rounded-lg">
             <Image
-              src="/05.jpg"
+              src="/03.jpg"
               alt="Instagram product 5"
               layout="fill"
               objectFit="cover"
@@ -75,7 +75,7 @@ const Instagram = () => {
           </div>
           <div className="aspect-square relative overflow-hidden rounded-lg">
             <Image
-              src="/06.jpg"
+              src="/12.png"
               alt="Instagram product 6"
               layout="fill"
               objectFit="cover"

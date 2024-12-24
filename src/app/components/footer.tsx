@@ -1,13 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaPinterestP,
-  FaYoutube,
-} from "react-icons/fa";
-import { FaPaypal, FaCcVisa, FaCcMastercard, FaCcAmex } from "react-icons/fa";
+import { BiLogoMastercard } from "react-icons/bi";
+import { FaCcPaypal,FaFacebook,FaTwitter,FaInstagram,FaPinterest,FaYoutube} from "react-icons/fa";
+import { SiAmericanexpress } from "react-icons/si";
+import { BiLogoVisa } from "react-icons/bi";
 
 export default function Footer() {
   return (
@@ -25,7 +21,7 @@ export default function Footer() {
                 className="ml-3"
               />
             </div>
-            <p className="mt-4 text-gray-500">
+            <p className="mt-4 text-[#9A9CAA] ">
               Vivamus tristique odio sit amet velit semper, eu posuere turpis
               interdum. Cras egestas purus.
             </p>
@@ -36,7 +32,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-[#007580] text-xl p-2 border-2 border-transparent rounded-full hover:border-[#007580]"
               >
-                <FaFacebookF />
+                <FaFacebook />
               </a>
               <a
                 href="https://twitter.com"
@@ -60,7 +56,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-[#007580] text-xl p-2 border-2 border-transparent rounded-full hover:border-[#007580]"
               >
-                <FaPinterestP />
+                <FaPinterest />
               </a>
               <a
                 href="https://youtube.com"
@@ -75,7 +71,7 @@ export default function Footer() {
 
           {/* Category Section */}
           <div className="w-full md:w-1/4 lg:w-[105px]">
-            <h4 className="text-lg font-semibold text-[#9A9CAA]">Category</h4>
+            <h4 className="text-lg font-semibold text-[#9A9CAA]">CATEGORY</h4>
             <ul className="mt-4 text-[#272343] space-y-2">
               <li>
                 <a
@@ -104,7 +100,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="hover:text-[#007580] hover:underline hover:underline-offset-4"
+                  className="hover:text-[#8880ff] hover:underline hover:underline-offset-4"
                 >
                   Desk Chair
                 </a>
@@ -114,7 +110,7 @@ export default function Footer() {
                   href="#"
                   className="hover:text-[#007580] hover:underline hover:underline-offset-4"
                 >
-                  Wooden Chair
+                woodenChair
                 </a>
               </li>
               <li>
@@ -130,7 +126,7 @@ export default function Footer() {
 
           {/* Support Section */}
           <div className="w-full md:w-1/4 lg:w-[156px]">
-            <h4 className="text-lg font-semibold text-[#9A9CAA]">Support</h4>
+            <h4 className="text-lg font-semibold text-[#9A9CAA]">SUPPORT</h4>
             <ul className="mt-4 text-[#272343] space-y-2">
               <li>
                 <a
@@ -169,7 +165,7 @@ export default function Footer() {
 
           {/* Newsletter Section */}
           <div className="w-full md:w-1/4 lg:w-[424px]">
-            <h4 className="text-lg font-semibold text-[#9A9CAA]">Newsletter</h4>
+            <h4 className="text-lg font-semibold text-[#9A9CAA]">NEWSLETTER</h4>
             <div className="mt-4 flex gap-2">
               <input
                 type="email"
@@ -190,16 +186,16 @@ export default function Footer() {
         {/* Footer Bottom */}
         <div className="flex justify-between items-center flex-wrap text-[#9A9CAA] border-t pt-8">
           <p>
-            © 2021 - Blogy - Designed & Developed by{" "}
+            @ 2021 - Blogy - Designed & Developed by{" "}
             <a href="#" className="text-[#272343] hover:underline">
               Zakirsoft
             </a>
           </p>
           <div className="mt-4 flex justify-center space-x-4">
-            <FaCcMastercard size={40} />
-            <FaPaypal size={40} />
-            <FaCcAmex size={40} />
-            <FaCcVisa size={40} />
+            <BiLogoMastercard size={75} />
+            <FaCcPaypal size={60} />
+            <SiAmericanexpress size={50} />
+            <BiLogoVisa size={80} />
           </div>
         </div>
       </div>

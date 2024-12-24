@@ -1,5 +1,5 @@
 import { FiShoppingCart } from "react-icons/fi";
-import { Badge } from "@/components/ui/Badge";
+import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import Link from "next/link";
 interface Product {

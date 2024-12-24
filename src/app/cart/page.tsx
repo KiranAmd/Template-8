@@ -12,8 +12,8 @@ const Cart = () => {
 
           <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md mb-4">
             <div className="flex items-center space-x-4">
-              <div className="w-24 h-24 bg-orange-200 rounded">
-                <Image src="/02.jpg" alt="." width={150} height={150} />
+              <div className="w-24 h-25 bg-orange-200 rounded">
+                <Image src="/03.jpg" alt="." width={150} height={150} />
               </div>
               <div>
                 <h3 className="text-[16px] font-normal text-[#272343] mb-3">
@@ -44,8 +44,8 @@ const Cart = () => {
 
           <div className="flex items-center justify-between bg-white p-4 rounded-lg shadow-md">
             <div className="flex items-center space-x-4">
-              <div className="w-24 h-24 bg-gray-300 rounded">
-                <Image src="/02.jpg" alt="." width={150} height={150} />
+              <div className="w-14 h-15 bg-gray-300 rounded">
+                <Image src="/05.jpg" alt="." width={200} height={200} />
               </div>
               <div>
                 <h3 className="text-[16px] font-normal text-[#272343] mb-3">
@@ -84,7 +84,7 @@ const Cart = () => {
             </div>
             <div className="flex justify-between mb-4">
               <p className="text-lg">Estimated Delivery & Handling</p>
-              <p className="text-lg font-semibold text-green-500">Free</p>
+              <p className="text-lg font-semibold text-black">Free</p>
             </div>
             <hr className="mb-4" />
             <div className="flex justify-between mb-6">
