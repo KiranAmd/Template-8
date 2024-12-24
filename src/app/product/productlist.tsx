@@ -1,17 +1,17 @@
 import Link from "next/link";
 import Image from "next/image";
 
-type Product = {
-  id: number;
-  title: string;
-  price: number;
-  image: string;
-  originalPrice?: number;
-  isNew?: boolean;
-  isSale?: boolean;
-};
+// type Product = {
+//   id: number;
+//   title: string;
+//   price: number;
+//   image: string;
+//   originalPrice?: number;
+//   isNew?: boolean;
+//   isSale?: boolean;
+// };
 
-const products: Product[] = [
+const products: any[] = [
   { id: 1, title: "Library Stool Chair", price: 20, image: "01.jpg" },
   {
     id: 2,
