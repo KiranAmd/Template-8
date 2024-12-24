@@ -8,8 +8,8 @@ interface Product {
   price: number;
   originalPrice?: number;
   image: string;
-  isNew?: boolean;
-  isSale?: boolean;
+  isNew?: true;
+  isSale?: true;
 }
 
 export default function OurProduct() {
