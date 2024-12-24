@@ -1,5 +1,5 @@
 import { FiShoppingCart } from "react-icons/fi";
-import { Badge } from "@/components/ui/badge";
+import  {Badge}  from "./ui/Badge";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,20 +9,24 @@ type Product = {
   price: number;
   image: string;
   originalPrice?: number;
-  isNew?: boolean;
-  isSale?: boolean;
+  isNew?: true;
+  isSale?: true;
 };
 
 const ProductCard = ({ product }: { product: Product }) => (
   <div key={product.id} className="group relative rounded-lg bg-white">
     <div className="relative aspect-square overflow-hidden rounded-lg">
       {product.isNew && (
-        <Badge className="absolute left-3 top-3 bg-emerald-500 hover:bg-emerald-600">
+        <Badge className="absolute left-3 top-3 bg-emerald-500 hover:bg-emerald-600"
+        aria-label="New Product"
+        >
           New
         </Badge>
       )}
       {product.isSale && (
-        <Badge className="absolute left-3 top-3 bg-orange-500 hover:bg-orange-600">
+        <Badge className="absolute left-3 top-3 bg-orange-500 hover:bg-orange-600"
+        aria-label="New Sale"
+        >
           Sale
         </Badge>
       )}
